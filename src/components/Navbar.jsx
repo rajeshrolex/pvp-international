@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FiMenu, FiX, FiMail, FiPhone } from 'react-icons/fi';
-import { GiThreeLeaves } from 'react-icons/gi';
+import Logo from './Logo';
 
 export default function Navbar({ activeSection, setActiveSection }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -79,9 +79,7 @@ export default function Navbar({ activeSection, setActiveSection }) {
               className="flex items-center gap-2 cursor-pointer group"
               onClick={() => handleNavClick('home')}
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary-600 to-amber-500 flex items-center justify-center text-white shadow-md shadow-primary-600/20 group-hover:scale-105 transition-transform">
-                <GiThreeLeaves className="text-2xl" />
-              </div>
+              <Logo className="w-10 h-10 group-hover:rotate-12" variant="color" />
               <div>
                 <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-primary-800 to-primary-600 bg-clip-text text-transparent">
                   PVP

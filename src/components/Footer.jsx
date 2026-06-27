@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiPhone, FiMail, FiMapPin, FiAward, FiFileText } from 'react-icons/fi';
-import { GiThreeLeaves } from 'react-icons/gi';
+import Logo from './Logo';
 
 export default function Footer({ onNavClick }) {
   return (
@@ -10,9 +10,7 @@ export default function Footer({ onNavClick }) {
           {/* Brand Panel */}
           <div className="md:col-span-4 space-y-4">
             <div className="flex items-center gap-2 cursor-pointer" onClick={() => onNavClick('home')}>
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary-600 to-amber-500 flex items-center justify-center text-white shadow-md">
-                <GiThreeLeaves className="text-2xl" />
-              </div>
+              <Logo className="w-10 h-10" variant="color" />
               <div>
                 <span className="text-xl font-bold tracking-tight text-white">PVP</span>
                 <span className="text-xl font-semibold text-primary-300 ml-1">International</span>
