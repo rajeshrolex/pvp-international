@@ -1,27 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FiEye, FiArrowRight, FiInfo } from 'react-icons/fi';
+import { GiThreeLeaves, GiWaterDrop, GiGrain, GiCoconuts } from 'react-icons/gi';
 
 export default function ProductCard({ product, onQuickViewClick, onInquireClick }) {
+  const [imageError, setImageError] = useState(false);
+
   // Map category to styles
   const categoryStyles = {
     Spices: 'bg-rose-50 text-rose-700 border-rose-100',
     Coconuts: 'bg-amber-50 text-amber-800 border-amber-100',
     Grains: 'bg-emerald-50 text-emerald-700 border-emerald-100',
-    Fresh: 'bg-blue-50 text-blue-700 border-blue-100'
+    Fresh: 'bg-blue-50 text-blue-700 border-blue-100',
+    'Dry Fruits & Nuts': 'bg-orange-50 text-orange-800 border-orange-100',
+    Vegetables: 'bg-lime-50 text-lime-800 border-lime-100',
+    Oils: 'bg-yellow-50 text-yellow-800 border-yellow-100'
   };
 
   const currentStyle = categoryStyles[product.category] || 'bg-gray-50 text-gray-700 border-gray-100';
 
+  // Category fallback illustrations/icons when image fails to load
+  const getFallbackIcon = () => {
+    switch (product.category) {
+      case 'Vegetables':
+        return <GiThreeLeaves className="text-4xl text-lime-600 opacity-70 animate-pulse" />;
+      case 'Oils':
+        return <GiWaterDrop className="text-4xl text-amber-500 opacity-70 animate-pulse" />;
+      case 'Dry Fruits & Nuts':
+        return <GiGrain className="text-4xl text-orange-600 opacity-70 animate-pulse" />;
+      case 'Spices':
+        return <GiThreeLeaves className="text-4xl text-rose-600 opacity-70 animate-pulse" />;
+      case 'Rice & Grains':
+      case 'Pulses':
+      case 'Grains':
+        return <GiGrain className="text-4xl text-emerald-600 opacity-70 animate-pulse" />;
+      case 'Coconuts':
+        return <GiCoconuts className="text-4xl text-amber-800 opacity-70 animate-pulse" />;
+      default:
+        return <GiThreeLeaves className="text-4xl text-primary-600 opacity-70 animate-pulse" />;
+    }
+  };
+
   return (
     <div className="group bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col h-full">
       {/* Product Image Frame */}
-      <div className="relative aspect-[4/3] overflow-hidden bg-gray-50">
-        <img
-          src={product.image}
-          alt={product.prodname}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-          loading="lazy"
-        />
+      <div className="relative aspect-[4/3] overflow-hidden bg-gray-50 flex items-center justify-center">
+        {imageError ? (
+          <div className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 flex flex-col items-center justify-center gap-2 p-4">
+            {getFallbackIcon()}
+            <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">PVP Sourced</span>
+          </div>
+        ) : (
+          <img
+            src={product.image}
+            alt={product.prodname}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+            onError={() => setImageError(true)}
+          />
+        )}
         {/* Overlay buttons on hover */}
         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3 z-10">
           <button
@@ -48,7 +84,7 @@ export default function ProductCard({ product, onQuickViewClick, onInquireClick 
           </div>
 
           {/* Title */}
-          <h3 className="text-base font-black text-gray-900 group-hover:text-primary-600 transition-colors line-clamp-1 mb-1.5">
+          <h3 className="text-base font-black text-gray-900 group-hover:text-primary-600 transition-colors line-clamp-1 mb-1.5" title={product.prodname}>
             {product.prodname}
           </h3>
 

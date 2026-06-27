@@ -136,7 +136,7 @@ const productsData = [
     prodname: "Premium Cashew Nuts",
     proddispid: 2856184690111,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1608061253366-f7da158b6d96?auto=format&fit=crop&q=80&w=400",
+    image: "/images/cashew_nuts.png",
     description: "High-quality whole cashew nuts (W240/W320 grade). Perfectly dried, uniform, creamy white texture, rich in healthy fats and proteins.",
     specs: { grade: "Export Quality W240 / W320 Whole", packaging: "10kg Tin / 22.68kg Vacuum Bags", moisture: "5% Maximum", origin: "Sourced from top processing units in Andhra Pradesh" }
   },
@@ -144,7 +144,7 @@ const productsData = [
     prodname: "Premium Almonds",
     proddispid: 2856184690222,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1508061253366-f7da158b6d96?auto=format&fit=crop&q=80&w=400",
+    image: "/images/almonds_premium.png",
     description: "Nutrient-dense raw almonds. High density, crispy texture, sorted to ensure zero shells or broken pieces.",
     specs: { grade: "A-Grade California / Independent Paper-shell", packaging: "10kg / 25kg PP bags or Cartons", moisture: "6% Maximum", origin: "Imported & Processed locally" }
   },
@@ -192,7 +192,7 @@ const productsData = [
     prodname: "Groundnut Kernels Seeds",
     proddispid: 2856184691666,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&q=80&w=400",
+    image: "/images/groundnut_kernels.png",
     description: "Premium-grade shelled peanut kernels. Sorted by size, rich in oil and nutrients, perfect for snack processing or direct sourcing.",
     specs: { grade: "Bold 70/80 Count", packaging: "50kg Jute bags", moisture: "7% Maximum", origin: "Anantapur, Andhra Pradesh" }
   },
@@ -234,7 +234,7 @@ const productsData = [
     prodname: "Wholesale Red Onions",
     proddispid: 2856184690555,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1508747703725-719ae2c2264a?auto=format&fit=crop&q=80&w=400",
+    image: "/images/onions_wholesale.png",
     description: "Sorted, medium-to-large sized red onions. Dried skin for long storage capability, perfect for wholesale distribution.",
     specs: { grade: "Medium/Large (45mm - 55mm+)", packaging: "25kg / 50kg PP Net Sacks", moisture: "Natural Cured Skin", origin: "Kurnool, Andhra Pradesh / Maharashtra Farms" }
   },
@@ -258,7 +258,7 @@ const productsData = [
     prodname: "Organic Sweet Potato",
     proddispid: 2856184690666,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=400",
+    image: "/images/sweet_potato.png",
     description: "Starchy, sweet, and nutrient-dense organic sweet potatoes. Carefully washed and sorted for bulk wholesale.",
     specs: { grade: "Grade-A Organic", packaging: "20kg Wooden Crates / Jute Sacks", moisture: "Fresh Harvest", origin: "Coastal Andhra districts" }
   },
@@ -266,7 +266,7 @@ const productsData = [
     prodname: "Fresh Green Chillies",
     proddispid: 2856184690333,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1567375691347-285e65d3d070?auto=format&fit=crop&q=80&w=400",
+    image: "/images/green_chillies.png",
     description: "Highly pungent, fresh green chillies. Sourced fresh daily from local farms, sorted by size and uniformity.",
     specs: { grade: "Guntur Teja / Standard Fresh", packaging: "5kg / 10kg Corrugated Boxes or Net Sacks", moisture: "Fresh Crop (High Hydration)", origin: "Guntur District, Andhra Pradesh" }
   },
@@ -274,7 +274,7 @@ const productsData = [
     prodname: "Fresh Red Chillies",
     proddispid: 2856184690444,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1518013006308-aa1d5fbfe11f?auto=format&fit=crop&q=80&w=400",
+    image: "/images/red_chillies.png",
     description: "Bright red, fully mature fresh red chillies. Perfect for spice blending and paste production.",
     specs: { grade: "A-Grade Fresh Red", packaging: "10kg Jute bags / Air-circulated crates", moisture: "Fresh Crop", origin: "Kurnool & Guntur belts" }
   },
@@ -524,7 +524,7 @@ const productsData = [
     prodname: "Coconut Oil",
     proddispid: 2856184690777,
     category: "Oils",
-    image: "https://images.unsplash.com/photo-1622484211148-716598e0db01?auto=format&fit=crop&q=80&w=400",
+    image: "/images/edible_oils.png",
     description: "100% pure cold-pressed edible coconut oil. Rich aroma, natural taste, zero chemical additives or preservatives.",
     specs: { grade: "Cold Pressed / Virgin Grade", packaging: "1L Bottles / 5L Cans / 15kg Tins", moisture: "0.2% Maximum", origin: "Konaseema Oil Mills, AP" }
   },
@@ -591,7 +591,7 @@ const productsData = [
     prodname: "Fresh Alphonso Mango",
     proddispid: 2856184635997,
     category: "Fruits",
-    image: "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&q=80&w=400",
+    image: "/images/fresh_alphonso_mango.png",
     description: "Exquisite Alphonso mangoes, handpicked for sweetness, color, and premium texture.",
     specs: { grade: "Premium Table Grade (A-Grade)", packaging: "Cushioned Corrugated Boxes", moisture: "Fresh Fruit", origin: "Ratnagiri, India" }
   },
@@ -599,7 +599,7 @@ const productsData = [
     prodname: "Organic Fresh Watermelon",
     proddispid: 2856184558797,
     category: "Fruits",
-    image: "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=400",
+    image: "/images/organic_watermelon.png",
     description: "Sweet, juicy organic watermelons grown using sustainable biodiverse methods.",
     specs: { grade: "Premium Table Grade", packaging: "Bulk Crates", moisture: "Fresh Harvest", origin: "Nellore, Andhra Pradesh" }
   },
@@ -652,7 +652,7 @@ const productsData = [
     prodname: "Basmati Paddy Rice",
     proddispid: 2856184690888,
     category: "Rice & Grains",
-    image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400",
+    image: "/images/basmati_paddy_rice.png",
     description: "Premium-grade Basmati paddy rice grains. Excellent length expansion, delicious aroma, cured naturally.",
     specs: { grade: "Premium Traditional Basmati", packaging: "25kg / 50kg PP Bags", moisture: "12% Maximum", origin: "Indo-Gangetic plains" }
   },
@@ -660,7 +660,7 @@ const productsData = [
     prodname: "White Short Grain Rice",
     proddispid: 2856184691555,
     category: "Rice & Grains",
-    image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400",
+    image: "/images/short_grain_rice.png",
     description: "Premium white short grain rice. Soft and sticky texture, ideal for daily dining.",
     specs: { grade: "Sona Masoori / Raw Short Grain", packaging: "26kg / 50kg HDPE Bags", moisture: "12% Maximum", origin: "Krishna-Godavari delta, AP" }
   },
@@ -669,7 +669,7 @@ const productsData = [
     prodname: "Yellow Toor Dal",
     proddispid: 2856184627873,
     category: "Pulses",
-    image: "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?auto=format&fit=crop&q=80&w=400",
+    image: "/images/yellow_toor_dal.png",
     description: "Premium bold yellow split pigeon peas (Toor Dal). Silky polished, uniform sortex quality.",
     specs: { grade: "Bold Sortex Cleaned", packaging: "25kg / 50kg PP Bags", moisture: "9.5% Maximum", origin: "Latur, Maharashtra" }
   },
@@ -677,7 +677,7 @@ const productsData = [
     prodname: "Whole Green Moong Dal",
     proddispid: 2856184691222,
     category: "Pulses",
-    image: "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?auto=format&fit=crop&q=80&w=400",
+    image: "/images/green_moong_dal.png",
     description: "Whole premium green gram (Moong Dal). Uniform size, cleaned using sortex machines.",
     specs: { grade: "Sortex Cleaned Bold", packaging: "25kg / 50kg PP Sacks", moisture: "9% Maximum", origin: "AP cooperative farms" }
   },
@@ -686,7 +686,7 @@ const productsData = [
     prodname: "Dried Turmeric Finger",
     proddispid: 2856184680048,
     category: "Spices",
-    image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=400",
+    image: "/images/turmeric_export.png",
     description: "Premium double-polished dried turmeric finger roots. Highly valued for deep golden color and curcumin value.",
     specs: { grade: "Export Quality Double Polished", packaging: "25kg / 50kg Jute Bags", moisture: "9% Maximum", origin: "Kadapa, AP" }
   },
@@ -694,7 +694,7 @@ const productsData = [
     prodname: "Dry Red Chilli",
     proddispid: 2856184690999,
     category: "Spices",
-    image: "https://images.unsplash.com/photo-1518013006308-aa1d5fbfe11f?auto=format&fit=crop&q=80&w=400",
+    image: "/images/dry_red_chilli.png",
     description: "Premium dried red chillies. Uniform fiery red color, high heat values, ideal for exports.",
     specs: { grade: "Guntur Teja (S17) / Stemless", packaging: "10kg / 25kg Gunny Bags", moisture: "10% Maximum", origin: "Guntur Chilli Yard, AP" }
   },
@@ -702,7 +702,7 @@ const productsData = [
     prodname: "Organic Dry Cloves",
     proddispid: 2856184691333,
     category: "Spices",
-    image: "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&q=80&w=400",
+    image: "/images/dry_cloves.png",
     description: "Fully dried, highly aromatic cloves (Laung). High oil content, deep brown hue.",
     specs: { grade: "Hand-picked Selected (HPS) Grade", packaging: "25kg Jute bags with inner lining", moisture: "11% Maximum", origin: "Kerala, India" }
   },
