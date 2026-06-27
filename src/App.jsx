@@ -166,6 +166,97 @@ const productsData = [
       moisture: "13% Maximum",
       origin: "Godavari Delta Mills, Andhra Pradesh"
     }
+  },
+  {
+    prodname: "Premium Cashew Nuts",
+    proddispid: 2856184690111,
+    category: "Dry Fruits",
+    image: "/images/cashew_nuts.png",
+    description: "High-quality whole cashew nuts (W240/W320 grade). Perfectly dried, uniform, creamy white texture, rich in healthy fats and proteins.",
+    specs: {
+      grade: "Export Quality W240 / W320 Whole",
+      packaging: "10kg Tin / 22.68kg Vacuum Bags",
+      moisture: "5% Maximum",
+      origin: "Sourced from top processing units in Andhra Pradesh"
+    }
+  },
+  {
+    prodname: "Premium Almonds (Badam)",
+    proddispid: 2856184690222,
+    category: "Dry Fruits",
+    image: "/images/almonds_premium.png",
+    description: "Nutrient-dense raw almonds. High density, crispy texture, sorted to ensure zero shells or broken pieces.",
+    specs: {
+      grade: "A-Grade California / Independent Paper-shell",
+      packaging: "10kg / 25kg PP bags or Cartons",
+      moisture: "6% Maximum",
+      origin: "Imported & Processed locally"
+    }
+  },
+  {
+    prodname: "Fresh Green Chillies",
+    proddispid: 2856184690333,
+    category: "Vegetables",
+    image: "/images/green_chillies.png",
+    description: "Highly pungent, fresh green chillies. Sourced fresh daily from local farms, sorted by size and uniformity.",
+    specs: {
+      grade: "Guntur Teja / Standard Fresh",
+      packaging: "5kg / 10kg Corrugated Boxes or Net Sacks",
+      moisture: "Fresh Crop (High Hydration)",
+      origin: "Guntur District, Andhra Pradesh"
+    }
+  },
+  {
+    prodname: "Fresh Red Chillies",
+    proddispid: 2856184690444,
+    category: "Vegetables",
+    image: "/images/red_chillies.png",
+    description: "Bright red, fully mature fresh red chillies. Perfect for spice blending and paste production.",
+    specs: {
+      grade: "A-Grade Fresh Red",
+      packaging: "10kg Jute bags / Air-circulated crates",
+      moisture: "Fresh Crop",
+      origin: "Kurnool & Guntur belts"
+    }
+  },
+  {
+    prodname: "Wholesale Red Onions",
+    proddispid: 2856184690555,
+    category: "Vegetables",
+    image: "/images/onions_wholesale.png",
+    description: "Sorted, medium-to-large sized red onions. Dried skin for long storage capability, perfect for wholesale distribution.",
+    specs: {
+      grade: "Medium/Large (45mm - 55mm+)",
+      packaging: "25kg / 50kg PP Net Sacks",
+      moisture: "Natural Cured Skin",
+      origin: "Kurnool, Andhra Pradesh / Maharashtra Farms"
+    }
+  },
+  {
+    prodname: "Organic Sweet Potato",
+    proddispid: 2856184690666,
+    category: "Vegetables",
+    image: "/images/sweet_potato.png",
+    description: "Starchy, sweet, and nutrient-dense organic sweet potatoes. Carefully washed and sorted for bulk wholesale.",
+    specs: {
+      grade: "Grade-A Organic",
+      packaging: "20kg Wooden Crates / Jute Sacks",
+      moisture: "Fresh Harvest",
+      origin: "Coastal Andhra districts"
+    }
+  },
+  {
+    prodname: "Premium Edible Coconut Oil",
+    proddispid: 2856184690777,
+    category: "Oils",
+    image: "/images/edible_oils.png",
+    description: "100% pure cold-pressed edible coconut oil. Rich aroma, natural taste, zero chemical additives or preservatives.",
+    specs: {
+      grade: "Cold Pressed / Virgin Grade",
+      packaging: "1L Bottles / 5L Cans / 15kg Tins",
+      moisture: "0.2% Maximum",
+      origin: "Konaseema Oil Mills, AP"
+    }
   }
 ];
 
@@ -177,7 +268,7 @@ function App() {
   const [sortBy, setSortBy] = useState('name-asc');
 
   // Filter Categories
-  const categories = ['All', 'Spices', 'Coconuts', 'Grains', 'Fresh'];
+  const categories = ['All', 'Spices', 'Coconuts', 'Grains', 'Fresh', 'Vegetables', 'Dry Fruits', 'Oils'];
 
   // Handle filtering and sorting
   const filteredProducts = productsData
