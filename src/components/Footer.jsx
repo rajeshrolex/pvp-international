@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 export default function Footer({ onNavClick }) {
   return (
-    <footer className="bg-primary-950 text-white/90 pt-16 pb-8 border-t border-white/5">
+    <footer className="bg-primary-900 text-white/90 pt-16 pb-8 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 pb-12 border-b border-white/5">
           {/* Brand Panel */}
