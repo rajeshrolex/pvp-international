@@ -257,6 +257,123 @@ const productsData = [
       moisture: "0.2% Maximum",
       origin: "Konaseema Oil Mills, AP"
     }
+  },
+  {
+    prodname: "Basmati Paddy Rice",
+    proddispid: 2856184690888,
+    category: "Grains",
+    image: "/images/basmati_paddy_rice.png",
+    description: "Premium-grade Basmati paddy rice grains. Excellent length expansion, delicious aroma, cured naturally to bring out premium flavor.",
+    specs: {
+      grade: "Premium Traditional Basmati",
+      packaging: "25kg / 50kg PP Bags",
+      moisture: "12% Maximum",
+      origin: "Indo-Gangetic plains / AP Rice fields"
+    }
+  },
+  {
+    prodname: "Dry Red Chilli",
+    proddispid: 2856184690999,
+    category: "Spices",
+    image: "/images/dry_red_chilli.png",
+    description: "Premium dried red chillies. Uniform fiery red color, high heat values, ideal for culinary spice formulations and exports.",
+    specs: {
+      grade: "Guntur Teja (S17) / Stemless",
+      packaging: "10kg / 25kg Gunny Bags",
+      moisture: "10% Maximum",
+      origin: "Guntur Chilli Yard, AP"
+    }
+  },
+  {
+    prodname: "Fresh Tender Coconut",
+    proddispid: 2856184691111,
+    category: "Coconuts",
+    image: "/images/tender_coconut.png",
+    description: "Vibrant green tender coconuts packed with refreshing sweet water and soft pulp. Sorted by size for maximum water yield.",
+    specs: {
+      grade: "Premium Grade (A-Grade Heavy)",
+      packaging: "Bulk Crates / Open Truckload",
+      moisture: "Natural Fresh Juice",
+      origin: "Konaseema region, Andhra Pradesh"
+    }
+  },
+  {
+    prodname: "Whole Green Moong Dal",
+    proddispid: 2856184691222,
+    category: "Grains",
+    image: "/images/green_moong_dal.png",
+    description: "Whole premium green gram (Moong Dal). Uniform size, cleaned using sortex machines, free of stones and dust.",
+    specs: {
+      grade: "Sortex Cleaned Bold",
+      packaging: "25kg / 50kg PP Sacks",
+      moisture: "9% Maximum",
+      origin: "Madhya Pradesh / Andhra Pradesh cooperative farms"
+    }
+  },
+  {
+    prodname: "Organic Dry Cloves",
+    proddispid: 2856184691333,
+    category: "Spices",
+    image: "/images/dry_cloves.png",
+    description: "Fully dried, highly aromatic cloves (Laung). High oil content, deep brown hue, sourced from organic plantations.",
+    specs: {
+      grade: "Hand-picked Selected (HPS) Grade",
+      packaging: "25kg Jute bags with inner lining",
+      moisture: "11% Maximum",
+      origin: "Kerala hill tracts & imports"
+    }
+  },
+  {
+    prodname: "White Refined Sugar",
+    proddispid: 2856184691444,
+    category: "Grains",
+    image: "/images/refined_sugar.png",
+    description: "Fine crystalline white refined sugar. Highly soluble, premium sweetening agent manufactured in modern refineries.",
+    specs: {
+      grade: "Refined Cane Sugar (Grade M-30)",
+      packaging: "50kg PP Bags with inner poly-liner",
+      moisture: "0.04% Maximum",
+      origin: "AP Sugar Mills"
+    }
+  },
+  {
+    prodname: "White Short Grain Rice",
+    proddispid: 2856184691555,
+    category: "Grains",
+    image: "/images/short_grain_rice.png",
+    description: "Premium white short grain rice. Soft and sticky texture when cooked, ideal for traditional daily dining and flour processing.",
+    specs: {
+      grade: "Sona Masoori / Raw Short Grain",
+      packaging: "26kg / 50kg HDPE Bags",
+      moisture: "12% Maximum",
+      origin: "Krishna-Godavari delta, AP"
+    }
+  },
+  {
+    prodname: "Groundnut Kernels Seeds",
+    proddispid: 2856184691666,
+    category: "Dry Fruits",
+    image: "/images/groundnut_kernels.png",
+    description: "Premium-grade shelled peanut kernels. Sorted by size, rich in oil and nutrients, perfect for snack processing or direct sourcing.",
+    specs: {
+      grade: "Bold 70/80 Count",
+      packaging: "50kg Jute bags",
+      moisture: "7% Maximum",
+      origin: "Anantapur, Andhra Pradesh"
+    }
+  },
+  {
+    prodname: "Black Mustard Seeds",
+    proddispid: 2856184691777,
+    category: "Spices",
+    image: "/images/mustard_seeds.png",
+    description: "Small, bold black mustard seeds. Deep pungent aroma and sharp taste, perfect for spice tempering and seasoning.",
+    specs: {
+      grade: "Sortex Cleaned Micro/Medium",
+      packaging: "25kg / 50kg PP Sacks",
+      moisture: "8% Maximum",
+      origin: "Rajasthan / Andhra Pradesh fields"
+    }
   }
 ];
 
