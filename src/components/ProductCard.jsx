@@ -76,37 +76,37 @@ export default function ProductCard({ product, onQuickViewClick, onInquireClick 
       </div>
 
       {/* Card Info Section */}
-      <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
+      <div className="p-3 sm:p-5 flex-1 flex flex-col justify-between space-y-3 sm:space-y-4">
         <div>
           {/* Catalog ID */}
-          <div className="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-1">
+          <div className="text-[9px] sm:text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-1">
             CATALOG ID: #{product.proddispid.toString().slice(-4)}
           </div>
 
           {/* Title */}
-          <h3 className="text-base font-black text-gray-900 group-hover:text-primary-600 transition-colors line-clamp-1 mb-1.5" title={product.prodname}>
+          <h3 className="text-sm sm:text-base font-black text-gray-900 group-hover:text-primary-600 transition-colors line-clamp-1 mb-1" title={product.prodname}>
             {product.prodname}
           </h3>
 
           {/* Description */}
-          <p className="text-xs text-gray-500 line-clamp-2 leading-relaxed">
+          <p className="text-[11px] sm:text-xs text-gray-500 line-clamp-2 leading-relaxed">
             {product.description}
           </p>
         </div>
 
         {/* Buttons */}
-        <div className="grid grid-cols-2 gap-2 pt-3.5 border-t border-gray-50">
+        <div className="grid grid-cols-2 gap-1.5 sm:gap-2 pt-3 border-t border-gray-50">
           <button
             onClick={() => onQuickViewClick(product)}
-            className="text-xs font-semibold text-gray-600 hover:text-primary-600 hover:bg-primary-50 py-2.5 rounded-xl border border-gray-100 transition-colors flex items-center justify-center gap-1.5"
+            className="text-[10px] sm:text-xs font-semibold text-gray-600 hover:text-primary-600 hover:bg-primary-50 py-2 sm:py-2.5 rounded-xl border border-gray-100 transition-colors flex items-center justify-center gap-1 shrink-0"
           >
-            <FiInfo /> Specs
+            <FiInfo className="text-xs shrink-0" /> Specs
           </button>
           <button
             onClick={() => onInquireClick(product)}
-            className="text-xs font-bold bg-primary-600 hover:bg-primary-700 text-white py-2.5 rounded-xl transition-all flex items-center justify-center gap-1.5 active:scale-95 shadow-sm hover:shadow"
+            className="text-[10px] sm:text-xs font-bold bg-primary-600 hover:bg-primary-700 text-white py-2 sm:py-2.5 rounded-xl transition-all flex items-center justify-center gap-1 active:scale-95 shadow-sm hover:shadow shrink-0"
           >
-            Get Quote <FiArrowRight />
+            Quote <FiArrowRight className="text-xs shrink-0" />
           </button>
         </div>
       </div>

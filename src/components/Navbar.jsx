@@ -84,7 +84,7 @@ export default function Navbar({ activeSection, setActiveSection }) {
                 <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-primary-800 to-primary-600 bg-clip-text text-transparent">
                   PVP
                 </span>
-                <span className="text-xl font-semibold text-gray-500 ml-1">
+                <span className="text-xl font-semibold text-primary-600 ml-1">
                   International
                 </span>
                 <p className="text-[10px] text-primary-600 font-medium tracking-widest uppercase -mt-1">
