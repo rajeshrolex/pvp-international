@@ -152,7 +152,7 @@ const productsData = [
     prodname: "Premium Pistachio",
     proddispid: 2856184692001,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1605656811214-9e557b4b1a43?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1567375691347-285e65d3d070?auto=format&fit=crop&q=80&w=400",
     description: "Roasted salted or raw unshelled pistachios. Rich green kernel color, natural crack shells, delicious flavor.",
     specs: { grade: "Bold Grade A", packaging: "10kg / 15kg Corrugated Boxes", moisture: "5% Maximum", origin: "Direct Import & Sourced" }
   },
@@ -200,7 +200,7 @@ const productsData = [
     prodname: "Hazelnut",
     proddispid: 2856184692006,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1628114321612-ad94285b0d0c?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1507721999472-8ed4421c4b2e?auto=format&fit=crop&q=80&w=400",
     description: "Premium raw shelled hazelnuts. Sourced from high-quality orchards, rich aroma and premium nutty taste.",
     specs: { grade: "Whole Kernels 11-13mm", packaging: "25kg bags", moisture: "6% Max", origin: "Imported" }
   },
@@ -208,7 +208,7 @@ const productsData = [
     prodname: "Pecan",
     proddispid: 2856184692007,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1629115916386-b4c6e9b8b7d9?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&q=80&w=400",
     description: "Raw premium pecan halves. Sweet and buttery flavor profile, perfect for baking and snack processing.",
     specs: { grade: "Junior Mammoth Halves", packaging: "10kg boxes", moisture: "5% Max", origin: "Imported Sourced" }
   },
@@ -216,7 +216,7 @@ const productsData = [
     prodname: "Macadamia",
     proddispid: 2856184692008,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1628114251786-fb7c96c4b126?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&q=80&w=400",
     description: "Rich, creamy, and buttery macadamia nuts. Highly sorted to ensure uniform quality and premium grade.",
     specs: { grade: "Style 1 (Whole Raw)", packaging: "11.34kg Foil bags", moisture: "1.5% Max", origin: "Import Sourced" }
   },
@@ -314,7 +314,7 @@ const productsData = [
     prodname: "Fresh Cabbage",
     proddispid: 2856184692107,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1622484211148-716598e0db01?auto=format&fit=crop&q=80&w=400",
+    image: "/images/fresh_cabbage.png",
     description: "Crisp and fresh green cabbage heads. Firmly packed leaves, sorted to ensure zero worm damage.",
     specs: { grade: "Standard Medium Heads", packaging: "Crates / Loose load", moisture: "Fresh Crop", origin: "Local AP Fields" }
   },
@@ -322,7 +322,7 @@ const productsData = [
     prodname: "Fresh Cauliflower",
     proddispid: 2856184692108,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1568584711075-3d021a7c3ec3?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=400",
     description: "Premium white cauliflower heads. Kept fresh in temperature-controlled transit, clean florets.",
     specs: { grade: "White Curd Bold", packaging: "Wooden Crates / Loose", moisture: "Fresh Crop", origin: "Agency Areas, Vizag" }
   },
@@ -346,7 +346,7 @@ const productsData = [
     prodname: "Fresh Coriander Leaves",
     proddispid: 2856184692111,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1608797178974-15b35a61d121?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?auto=format&fit=crop&q=80&w=400",
     description: "Aromatic coriander greens. Essential seasoning herb, fresh harvest daily.",
     specs: { grade: "Aromatic Fresh Greens", packaging: "Bundled in ventilated crates", moisture: "Fresh Herb", origin: "Vizag Suburbs" }
   },
@@ -354,7 +354,7 @@ const productsData = [
     prodname: "Fresh Mint Leaves",
     proddispid: 2856184692112,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1588693951525-4c07c2936746?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&q=80&w=400",
     description: "Refreshing green mint leaves. Highly aromatic, ideal for culinary preparations and extracts.",
     specs: { grade: "Fresh Mint", packaging: "Bundles", moisture: "Fresh Leaf", origin: "Local Cooperatives" }
   },
@@ -378,7 +378,7 @@ const productsData = [
     prodname: "Fresh Okra",
     proddispid: 2856184692115,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1464454709131-ffd692ba94f2?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1627916607164-7b20241db935?auto=format&fit=crop&q=80&w=400",
     description: "Tender, fresh green okra pods. Uniform length, free from insect holes, packed under optimal air ventilation.",
     specs: { grade: "Tender Export Grade", packaging: "Cartons / Net Sacks", moisture: "Fresh Crop", origin: "Nellore Farms" }
   },
@@ -386,7 +386,7 @@ const productsData = [
     prodname: "Fresh Capsicum",
     proddispid: 2856184692116,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1563565312-7a0e37922d17?auto=format&fit=crop&w=400&q=80",
+    image: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&q=80&w=400",
     description: "Fleshy green capsicum (bell peppers). Sourced from greenhouse farms, crisp and glossy texture.",
     specs: { grade: "Grade A Greenhouse", packaging: "10kg Cardboard Cartons", moisture: "Fresh Crop", origin: "Chittoor Polyhouses" }
   },
@@ -394,7 +394,7 @@ const productsData = [
     prodname: "Fresh Cucumber",
     proddispid: 2856184692117,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1604974244764-7c703f8f11f9?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1590378539451-f2c969238530?auto=format&fit=crop&q=80&w=400",
     description: "Crisp, water-rich green cucumbers. Ideal for salads and pickling, fresh harvest.",
     specs: { grade: "Table Salad Grade", packaging: "Plastic Crates", moisture: "Fresh Harvest", origin: "Local Farms" }
   },
@@ -450,7 +450,7 @@ const productsData = [
     prodname: "Fresh Green Peas",
     proddispid: 2856184692124,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1587570256523-658ee5215f3e?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1574316071802-0d684efa7bf5?auto=format&fit=crop&q=80&w=400",
     description: "Sweet green peas in pod. Sourced from cold zones, highly sweet and tender.",
     specs: { grade: "Sweet Table Grade", packaging: "Net Bags / Chilled Crates", moisture: "Fresh Crop", origin: "Himachal / Ooty" }
   },
@@ -572,7 +572,7 @@ const productsData = [
     prodname: "Pure Cow Ghee",
     proddispid: 2856184693009,
     category: "Oils",
-    image: "https://images.unsplash.com/photo-1628114321612-ad94285b0d0c?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=400",
     description: "Traditional pure cow ghee. Aromatic, granular texture, rich flavor suitable for cooking and sweets.",
     specs: { grade: "Premium Granular Cow Ghee", packaging: "500ml / 1L Tins & Packs", moisture: "0.3% Max", origin: "Coastal AP Cooperatives" }
   },
