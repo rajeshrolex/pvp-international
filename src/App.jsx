@@ -1047,7 +1047,7 @@ function App() {
                   Premium Agricultural Wholesale Sourcing From Visakhapatnam
                 </h2>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  PVP International has established itself as a reliable Wholesaler and Trader of agricultural yields. Under the leadership of <strong>CEO P. Prasad</strong>, we coordinate bulk sourcing directly from local farmers and agricultural hubs, maintaining deep quality supervision at every stage of the lifecycle.
+                  PVP International has established itself as a reliable Wholesaler and Trader of agricultural yields. Under the leadership of <strong>CEO P. Varaprasad</strong>, we coordinate bulk sourcing directly from local farmers and agricultural hubs, maintaining deep quality supervision at every stage of the lifecycle.
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Located in the major commercial and port zone of <strong>Visakhapatnam, Andhra Pradesh</strong>, we possess unique logistical advantages. This enables rapid rail and sea dispatch from the Port of Visakhapatnam, reducing lead times for international global buyers and keeping inland transport rates highly optimal.

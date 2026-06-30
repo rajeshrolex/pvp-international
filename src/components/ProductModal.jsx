@@ -75,7 +75,7 @@ export default function ProductModal({ product, onClose, onInquireSubmit }) {
               </div>
               <h3 className="text-xl font-bold text-gray-900">Inquiry Submitted!</h3>
               <p className="text-sm text-gray-500 mt-2">
-                Thank you for contacting PVP International. Our sourcing team under P. Prasad will reach out within 24 hours with custom price matrices.
+                Thank you for contacting PVP International. Our sourcing team under P. Varaprasad will reach out within 24 hours with custom price matrices.
               </p>
             </div>
           ) : (

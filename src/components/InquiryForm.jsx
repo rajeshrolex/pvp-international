@@ -73,7 +73,7 @@ export default function InquiryForm({ products }) {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-gray-900">Direct CEO Supervised Sourcing</h4>
-                  <p className="text-xs text-gray-500">Managed directly under founder P. Prasad for pricing approvals and packaging integrity.</p>
+                  <p className="text-xs text-gray-500">Managed directly under founder P. Varaprasad for pricing approvals and packaging integrity.</p>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function InquiryForm({ products }) {
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Trade Request Logged!</h3>
                   <p className="text-sm text-gray-500 mt-3 max-w-md mx-auto">
-                    Your inquiry has been successfully dispatched to the PVP International trade desk in Visakhapatnam. P. Prasad and the sales representatives will establish connection shortly.
+                    Your inquiry has been successfully dispatched to the PVP International trade desk in Visakhapatnam. P. Varaprasad and the sales representatives will establish connection shortly.
                   </p>
                   <button
                     onClick={() => {

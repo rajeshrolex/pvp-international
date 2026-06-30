@@ -62,7 +62,7 @@ export default function Footer({ onNavClick }) {
               </li>
               <li className="flex items-center gap-3">
                 <FiFileText className="text-amber-400 text-base shrink-0" />
-                <span>CEO: P. Prasad | GSTIN Sourced Verified</span>
+                <span>CEO: P. Varaprasad | GSTIN Sourced Verified</span>
               </li>
             </ul>
           </div>

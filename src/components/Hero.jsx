@@ -105,7 +105,7 @@ export default function Hero({ onExploreClick, onQuoteClick }) {
             </div>
             <div className="text-center sm:text-left border-l border-white/10 pl-0 sm:pl-6">
               <div className="flex items-center justify-center sm:justify-start gap-1.5 text-primary-400 mb-1 font-bold text-white text-base">
-                <FaUserTie className="text-primary-400 text-sm" /> P. Prasad
+                <FaUserTie className="text-primary-400 text-sm" /> P. Varaprasad
               </div>
               <p className="text-xs text-gray-300">CEO & Founder</p>
             </div>
