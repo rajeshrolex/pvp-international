@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FiX, FiCheck, FiMail, FiMessageSquare } from 'react-icons/fi';
+import { FaWhatsapp } from 'react-icons/fa';
 import { toast } from 'react-hot-toast';
 
 export default function ProductModal({ product, onClose, onInquireSubmit }) {
@@ -178,12 +179,22 @@ export default function ProductModal({ product, onClose, onInquireSubmit }) {
                     />
                   </div>
 
-                  <button
-                    type="submit"
-                    className="w-full bg-primary-600 hover:bg-primary-700 text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md active:scale-95 flex items-center justify-center gap-1.5"
-                  >
-                    <FiMessageSquare /> Submit Bulk Query
-                  </button>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <button
+                      type="submit"
+                      className="w-full bg-primary-600 hover:bg-primary-700 text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md active:scale-95 flex items-center justify-center gap-1.5"
+                    >
+                      <FiMessageSquare /> Submit Bulk Query
+                    </button>
+                    <a
+                      href={`https://wa.me/918047515277?text=${encodeURIComponent(`Hello PVP International, I am interested in bulk quantities of ${product.prodname} (Catalog ID: #${product.proddispid.toString().slice(-4)}). Please share the price quote per ton and delivery schedules.`)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md active:scale-95 flex items-center justify-center gap-1.5 hover:no-underline"
+                    >
+                      <FaWhatsapp className="text-base shrink-0" /> WhatsApp Inquiry
+                    </a>
+                  </div>
                 </form>
               </div>
             </div>
