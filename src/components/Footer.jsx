@@ -62,7 +62,7 @@ export default function Footer({ onNavClick }) {
                   <FaInstagram className="text-sm" />
                 </a>
                 <a 
-                  href="https://wa.me/918047515277" 
+                  href="https://wa.me/919493709757" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition-all duration-300"
@@ -97,11 +97,11 @@ export default function Footer({ onNavClick }) {
             <ul className="space-y-3.5 text-xs text-white/75">
               <li className="flex items-start gap-3">
                 <FiMapPin className="text-amber-400 text-lg mt-0.5 shrink-0" />
-                <span>Madhurawada, Visakhapatnam, Andhra Pradesh, India - 530048</span>
+                <span>Madhurwada, Visakhapatnam, Andhra Pradesh, India - 530048</span>
               </li>
               <li className="flex items-center gap-3">
                 <FiPhone className="text-amber-400 text-base shrink-0" />
-                <span>+91-8047515277 / +91-8044947008</span>
+                <span>+91-9493709757 / +91-7013490164</span>
               </li>
               <li className="flex items-center gap-3">
                 <FiMail className="text-amber-400 text-base shrink-0" />

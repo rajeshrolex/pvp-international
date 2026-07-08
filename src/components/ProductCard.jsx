@@ -104,7 +104,7 @@ export default function ProductCard({ product, onQuickViewClick, onInquireClick 
             <FiInfo className="text-xs shrink-0" /> Specs
           </button>
           <a
-            href={`https://wa.me/918047515277?text=${encodeURIComponent(`Hello PVP International, I am interested in bulk quantities of ${product.prodname} (Catalog ID: #${product.proddispid.toString().slice(-4)}). Please share the price quote per ton and delivery schedules.`)}`}
+            href={`https://wa.me/919493709757?text=${encodeURIComponent(`Hello PVP International, I am interested in bulk quantities of ${product.prodname} (Catalog ID: #${product.proddispid.toString().slice(-4)}). Please share the price quote per ton and delivery schedules.`)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-[10px] sm:text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white py-2 sm:py-2.5 rounded-xl transition-all flex items-center justify-center gap-1 active:scale-95 shadow-sm hover:shadow shrink-0"

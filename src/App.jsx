@@ -1068,7 +1068,7 @@ function App() {
                 <div>
                   <h4 className="text-sm font-bold text-gray-900 mb-1">Corporate Address</h4>
                   <p className="text-xs text-gray-500 leading-relaxed">
-                    Madhurawada, Visakhapatnam, Andhra Pradesh, India - 530048
+                    Madhurwada, Visakhapatnam, Andhra Pradesh, India - 530048
                   </p>
                 </div>
               </div>
@@ -1079,8 +1079,8 @@ function App() {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-gray-900 mb-1">Call / WhatsApp</h4>
-                  <p className="text-xs text-gray-500 font-bold mb-1">+91 80475 15277</p>
-                  <p className="text-xs text-gray-500">+91 80449 47008</p>
+                  <p className="text-xs text-gray-500 font-bold mb-1">+91 94937 09757</p>
+                  <p className="text-xs text-gray-500">+91 70134 90164</p>
                 </div>
               </div>
 

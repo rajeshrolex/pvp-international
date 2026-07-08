@@ -51,7 +51,7 @@ export default function Navbar({ activeSection, setActiveSection }) {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-1.5">
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
-              <FiPhone className="text-amber-400" /> +91 80475 15277
+              <FiPhone className="text-amber-400" /> +91 94937 09757
             </span>
             <span className="hidden md:flex items-center gap-1">
               <FiMail className="text-amber-400" /> info@pvpinternational.co.in
@@ -86,7 +86,7 @@ export default function Navbar({ activeSection, setActiveSection }) {
                 <FaInstagram className="text-sm" />
               </a>
               <a 
-                href="https://wa.me/918047515277" 
+                href="https://wa.me/919493709757" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-white/60 hover:text-emerald-400 transition-colors"

@@ -187,7 +187,7 @@ export default function ProductModal({ product, onClose, onInquireSubmit }) {
                       <FiMessageSquare /> Submit Bulk Query
                     </button>
                     <a
-                      href={`https://wa.me/918047515277?text=${encodeURIComponent(`Hello PVP International, I am interested in bulk quantities of ${product.prodname} (Catalog ID: #${product.proddispid.toString().slice(-4)}). Please share the price quote per ton and delivery schedules.`)}`}
+                      href={`https://wa.me/919493709757?text=${encodeURIComponent(`Hello PVP International, I am interested in bulk quantities of ${product.prodname} (Catalog ID: #${product.proddispid.toString().slice(-4)}). Please share the price quote per ton and delivery schedules.`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md active:scale-95 flex items-center justify-center gap-1.5 hover:no-underline"
