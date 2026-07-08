@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FiMenu, FiX, FiMail, FiPhone } from 'react-icons/fi';
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import Logo from './Logo';
 
 export default function Navbar({ activeSection, setActiveSection }) {
@@ -56,10 +57,44 @@ export default function Navbar({ activeSection, setActiveSection }) {
               <FiMail className="text-amber-400" /> info@pvpinternational.co.in
             </span>
           </div>
-          <div className="flex items-center gap-3">
-            <span className="bg-amber-500/20 text-amber-300 font-semibold px-2 py-0.5 rounded text-[11px] border border-amber-500/30">
+          <div className="flex items-center gap-4">
+            <a 
+              href="https://www.indiamart.com/pvp-international-visakhapatnam/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-semibold px-2 py-0.5 rounded text-[11px] border border-amber-500/30 transition-colors"
+            >
               IndiaMART Verified Wholesaler
-            </span>
+            </a>
+            <div className="flex items-center gap-2 border-l border-white/15 pl-3">
+              <a 
+                href="https://www.facebook.com/pvpinternational" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white/60 hover:text-blue-400 transition-colors"
+                title="Facebook"
+              >
+                <FaFacebook className="text-sm" />
+              </a>
+              <a 
+                href="https://www.instagram.com/pvpinternational" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white/60 hover:text-pink-400 transition-colors"
+                title="Instagram"
+              >
+                <FaInstagram className="text-sm" />
+              </a>
+              <a 
+                href="https://wa.me/918047515277" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white/60 hover:text-emerald-400 transition-colors"
+                title="WhatsApp"
+              >
+                <FaWhatsapp className="text-sm" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

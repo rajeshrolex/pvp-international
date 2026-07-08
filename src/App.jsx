@@ -175,7 +175,7 @@ const productsData = [
     prodname: "Premium Pistachio",
     proddispid: 2856184692001,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1567375691347-285e65d3d070?auto=format&fit=crop&q=80&w=400",
+    image: "/images/premium_pistachio.png",
     description: "Roasted salted or raw unshelled pistachios. Rich green kernel color, natural crack shells, delicious flavor.",
     specs: { grade: "Bold Grade A", packaging: "10kg / 15kg Corrugated Boxes", moisture: "5% Maximum", origin: "Direct Import & Sourced" }
   },
@@ -183,7 +183,7 @@ const productsData = [
     prodname: "Premium Walnut",
     proddispid: 2856184692002,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&q=80&w=400",
+    image: "/images/premium_walnut.png",
     description: "Light half-cut premium walnut kernels. Loaded with omega-3 fatty acids, excellent dietary supplement.",
     specs: { grade: "Premium Light Halves", packaging: "10kg Vacuum bags in master carton", moisture: "5.5% Max", origin: "Kashmir, India" }
   },
@@ -191,7 +191,7 @@ const productsData = [
     prodname: "Sweet Raisins",
     proddispid: 2856184692003,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1589139352932-d17e761c5678?auto=format&fit=crop&q=80&w=400",
+    image: "/images/sweet_raisins.png",
     description: "Sun-dried golden raisins. Sweet, uniform shape, free from stalks, processed cleanly for confectionery and snacks.",
     specs: { grade: "Golden / Green Long Raisins", packaging: "15kg PP Boxes", moisture: "13% Target", origin: "Nashik, Maharashtra" }
   },
@@ -199,7 +199,7 @@ const productsData = [
     prodname: "Premium Dates",
     proddispid: 2856184692004,
     category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1569870499705-504209102861?auto=format&fit=crop&q=80&w=400",
+    image: "/images/premium_dates.png",
     description: "Rich, sweet, and sticky premium seedless or seeded dates. Naturally rich in energy and fibers.",
     specs: { grade: "Kimia / Medjool Sourced", packaging: "500g boxes / 10kg bulk", moisture: "15% Target", origin: "Imported / Sourced" }
   },
@@ -219,38 +219,7 @@ const productsData = [
     description: "Premium-grade shelled peanut kernels. Sorted by size, rich in oil and nutrients, perfect for snack processing or direct sourcing.",
     specs: { grade: "Bold 70/80 Count", packaging: "50kg Jute bags", moisture: "7% Maximum", origin: "Anantapur, Andhra Pradesh" }
   },
-  {
-    prodname: "Hazelnut",
-    proddispid: 2856184692006,
-    category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1507721999472-8ed4421c4b2e?auto=format&fit=crop&q=80&w=400",
-    description: "Premium raw shelled hazelnuts. Sourced from high-quality orchards, rich aroma and premium nutty taste.",
-    specs: { grade: "Whole Kernels 11-13mm", packaging: "25kg bags", moisture: "6% Max", origin: "Imported" }
-  },
-  {
-    prodname: "Pecan",
-    proddispid: 2856184692007,
-    category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&q=80&w=400",
-    description: "Raw premium pecan halves. Sweet and buttery flavor profile, perfect for baking and snack processing.",
-    specs: { grade: "Junior Mammoth Halves", packaging: "10kg boxes", moisture: "5% Max", origin: "Imported Sourced" }
-  },
-  {
-    prodname: "Macadamia",
-    proddispid: 2856184692008,
-    category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&q=80&w=400",
-    description: "Rich, creamy, and buttery macadamia nuts. Highly sorted to ensure uniform quality and premium grade.",
-    specs: { grade: "Style 1 (Whole Raw)", packaging: "11.34kg Foil bags", moisture: "1.5% Max", origin: "Import Sourced" }
-  },
-  {
-    prodname: "Mixed Nuts Pack",
-    proddispid: 2856184692009,
-    category: "Dry Fruits & Nuts",
-    image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&q=80&w=400",
-    description: "Premium assortment of Cashews, Almonds, Pistachios, and Walnuts. Perfect healthy daily snack mix.",
-    specs: { grade: "Premium Assorted Mix", packaging: "500g pouches / 10kg cartons", moisture: "6% Max", origin: "PVP Processing Facilities" }
-  },
+
 
   // --- VEGETABLES ---
   {
@@ -401,7 +370,7 @@ const productsData = [
     prodname: "Fresh Okra",
     proddispid: 2856184692115,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1627916607164-7b20241db935?auto=format&fit=crop&q=80&w=400",
+    image: "/images/fresh_okra.png",
     description: "Tender, fresh green okra pods. Uniform length, free from insect holes, packed under optimal air ventilation.",
     specs: { grade: "Tender Export Grade", packaging: "Cartons / Net Sacks", moisture: "Fresh Crop", origin: "Nellore Farms" }
   },
@@ -437,14 +406,7 @@ const productsData = [
     description: "Standard bitter gourd (Karela) with sharp ridges. Highly valued for health benefits.",
     specs: { grade: "Medium Green Ridged", packaging: "Crates", moisture: "Fresh Yield", origin: "Vizag Rural" }
   },
-  {
-    prodname: "Fresh Ridge Gourd",
-    proddispid: 2856184692120,
-    category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&q=80&w=400",
-    description: "Long ridged green gourds (Beerakaya). Fresh daily pick, tender seeds.",
-    specs: { grade: "Tender Long Ridged", packaging: "Crates", moisture: "Fresh Crop", origin: "Local Farmers" }
-  },
+
   {
     prodname: "Fresh Pumpkin",
     proddispid: 2856184692121,
@@ -489,7 +451,7 @@ const productsData = [
     prodname: "Sweet Corn Cob",
     proddispid: 2856184692126,
     category: "Vegetables",
-    image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&q=80&w=400",
+    image: "/images/sweet_corn_cob.png",
     description: "Sweet yellow corn cobs with husk. Juicy kernels, high sugar conversion yield.",
     specs: { grade: "Sweet Yellow Corn", packaging: "PP Bags / Crates", moisture: "Fresh Harvest", origin: "Local Farmers" }
   },
@@ -519,14 +481,6 @@ const productsData = [
   },
 
   // --- OILS ---
-  {
-    prodname: "Sunflower Oil",
-    proddispid: 2856184693001,
-    category: "Oils",
-    image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
-    description: "Premium refined sunflower oil. Low absorption, ideal for frying and daily healthy cooking.",
-    specs: { grade: "Refined Double Filtered", packaging: "1L Pouches / 5L Cans / 15L Tins", moisture: "0.1% Max", origin: "PVP Oil Refineries" }
-  },
   {
     prodname: "Groundnut Oil",
     proddispid: 2856184693002,
@@ -648,19 +602,11 @@ const productsData = [
     prodname: "Sliced Sandwich Bread",
     proddispid: 2856184695001,
     category: "Bakery",
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400",
+    image: "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=400",
     description: "Freshly baked sliced soft white sandwich bread. Perfect for daily breakfasts.",
     specs: { grade: "Soft White Bread", packaging: "400g pack", moisture: "Freshly Baked", origin: "Local PVP Bakery Partner" }
   },
   // Beverages
-  {
-    prodname: "Araku Valley Green Tea",
-    proddispid: 2856184696001,
-    category: "Beverages",
-    image: "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&q=80&w=400",
-    description: "Aromatic organic green tea leaves harvested from the high-altitude fields of Araku Valley.",
-    specs: { grade: "Organic Loose Leaf", packaging: "250g / 500g Cartons", moisture: "6% Max", origin: "Araku Valley, AP" }
-  },
   // Snacks
   {
     prodname: "Spiced Potato Chips",
@@ -739,14 +685,6 @@ const productsData = [
     specs: { grade: "Concentrated Active", packaging: "500ml / 1L Bottles", moisture: "N/A", origin: "PVP Chemical Unit" }
   },
   // Personal Care
-  {
-    prodname: "Herbal Neem Toothpaste",
-    proddispid: 2856184699001,
-    category: "Personal Care",
-    image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&q=80&w=400",
-    description: "Organic neem and clove extract toothpaste for dental protection. Free of parabens and fluoride.",
-    specs: { grade: "100% Organic Herbal", packaging: "150g tubes", moisture: "N/A", origin: "Ayurvedic Sourcing Unit" }
-  },
   // --- ADDED EXPORTS & SPECIFIC LOCAL AI IMAGES ---
   {
     prodname: "Premium Cardamom",

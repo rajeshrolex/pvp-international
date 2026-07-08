@@ -61,7 +61,15 @@ export default function ProductModal({ product, onClose, onInquireSubmit }) {
             </span>
             <h2 className="text-2xl font-black mt-1 leading-tight">{product.prodname}</h2>
             <p className="text-xs text-white/80 mt-2">
-              IndiaMART Verified Trader Sourced - PVP International
+              <a 
+                href={`https://www.indiamart.com/pvp-international-visakhapatnam/search.html?ss=${encodeURIComponent(product.prodname)}`}
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="underline hover:text-amber-400 font-medium transition-colors"
+              >
+                IndiaMART Verified Trader Sourced
+              </a>{' '}
+              - PVP International
             </p>
           </div>
         </div>

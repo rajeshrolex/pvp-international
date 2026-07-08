@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.pvpinternational.co.in/sitemap.xml
+
+# Disallow admin/private paths (none for this site, but good practice)
+Disallow: /src/

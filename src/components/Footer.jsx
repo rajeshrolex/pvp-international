@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiPhone, FiMail, FiMapPin, FiAward, FiFileText } from 'react-icons/fi';
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import Logo from './Logo';
 
 export default function Footer({ onNavClick }) {
@@ -22,8 +23,54 @@ export default function Footer({ onNavClick }) {
             <p className="text-xs text-white/60 leading-relaxed">
               Wholesale distribution & sourcing of agro-commodities based in the major coastal hub of Visakhapatnam, serving domestic and international supply requirements.
             </p>
-            <div className="flex items-center gap-2 text-xs text-amber-300 font-semibold bg-white/5 border border-white/10 px-3 py-2 rounded-xl w-max">
+            <a 
+              href="https://www.indiamart.com/pvp-international-visakhapatnam/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center gap-2 text-xs text-amber-300 font-semibold bg-white/5 border border-white/10 px-3 py-2 rounded-xl w-max hover:bg-white/10 hover:border-amber-400/50 transition-all duration-300"
+            >
               <FiAward className="text-sm" /> IndiaMART Verified Wholesaler & Distributor
+            </a>
+            <div className="flex flex-col gap-2 pt-1.5">
+              <span className="text-[10px] text-white/40 uppercase font-black tracking-wider">Connect & Follow Us</span>
+              <div className="flex items-center gap-3">
+                <a 
+                  href="https://www.indiamart.com/pvp-international-visakhapatnam/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-amber-500 hover:text-white hover:border-amber-500 transition-all duration-300"
+                  title="IndiaMART Profile"
+                >
+                  <span className="font-extrabold text-[10px] tracking-tighter">IM</span>
+                </a>
+                <a 
+                  href="https://www.facebook.com/pvpinternational" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-300"
+                  title="Facebook"
+                >
+                  <FaFacebook className="text-sm" />
+                </a>
+                <a 
+                  href="https://www.instagram.com/pvpinternational" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-pink-600 hover:text-white hover:border-pink-600 transition-all duration-300"
+                  title="Instagram"
+                >
+                  <FaInstagram className="text-sm" />
+                </a>
+                <a 
+                  href="https://wa.me/918047515277" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition-all duration-300"
+                  title="WhatsApp"
+                >
+                  <FaWhatsapp className="text-sm" />
+                </a>
+              </div>
             </div>
           </div>
 
@@ -70,7 +117,17 @@ export default function Footer({ onNavClick }) {
 
         {/* Bottom copyright banner */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40">
-          <p>© {new Date().getFullYear()} PVP International. All rights reserved. Sourced via IndiaMART network.</p>
+          <p>
+            © {new Date().getFullYear()} PVP International. All rights reserved. Sourced via{' '}
+            <a 
+              href="https://www.indiamart.com/pvp-international-visakhapatnam/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="underline hover:text-white transition-colors"
+            >
+              IndiaMART network
+            </a>.
+          </p>
           <div className="flex items-center gap-4">
             <a href="#about" className="hover:text-white transition-colors">Quality Guidelines</a>
             <a href="#contact" className="hover:text-white transition-colors">Terms of Trade</a>
