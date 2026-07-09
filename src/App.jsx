@@ -5,6 +5,7 @@ import ProductCard from './components/ProductCard';
 import ProductModal from './components/ProductModal';
 import InquiryForm from './components/InquiryForm';
 import Footer from './components/Footer';
+import Reviews from './components/Reviews';
 import { Toaster } from 'react-hot-toast';
 import { FiSearch, FiPhone, FiMail, FiMapPin, FiClock, FiCheckSquare } from 'react-icons/fi';
 import { FaAward, FaWarehouse, FaHandshake } from 'react-icons/fa';
@@ -724,7 +725,7 @@ const productsData = [
     category: "Rice & Grains",
     image: "/images/yellow_maize_seeds.png",
     description: "Export-quality yellow maize seeds, highly cleaned and sorted. Ideal for food processing, animal feed, and starch production.",
-    specs: { grade: "Export Quality Grade A", packaging: "50kg Jute or PP Bags", moisture: "14% Maximum", origin: "Andhra Pradesh / Telangana" }
+    specs: { grade: "Export Quality Grade A", packaging: "50kg Jute or PP Bags", moisture: "14% Maximum", origin: "Vizag, Andhra Pradesh" }
   },
   {
     prodname: "Premium Raw Coffee Beans",
@@ -1040,6 +1041,9 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* Reviews Section */}
+        <Reviews />
 
         {/* Inquiry Form Wrapper */}
         <InquiryForm products={productsData} />

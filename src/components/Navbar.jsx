@@ -23,6 +23,7 @@ export default function Navbar({ activeSection, setActiveSection }) {
     { id: 'home', label: 'Home' },
     { id: 'products', label: 'Products' },
     { id: 'about', label: 'About Us' },
+    { id: 'reviews', label: 'Reviews' },
     { id: 'contact', label: 'Contact' }
   ];
 

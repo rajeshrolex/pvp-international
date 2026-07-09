@@ -78,7 +78,7 @@ export default function Footer({ onNavClick }) {
           <div className="md:col-span-3 space-y-4">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider">Trading Desk Links</h4>
             <ul className="space-y-2.5 text-xs text-white/70">
-              {['home', 'products', 'about', 'contact', 'inquiry'].map((id) => (
+              {['home', 'products', 'about', 'reviews', 'contact', 'inquiry'].map((id) => (
                 <li key={id}>
                   <button
                     onClick={() => onNavClick(id)}
