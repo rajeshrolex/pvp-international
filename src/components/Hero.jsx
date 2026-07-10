@@ -4,15 +4,15 @@ import { FaStar, FaBuilding, FaUserTie } from 'react-icons/fa';
 
 const carouselImages = [
   {
-    url: "/images/turmeric_export.png",
+    url: "/images/turmeric_export.jpeg",
     title: "Premium Turmeric Sourcing"
   },
   {
-    url: "/images/coconuts_wholesale.png",
+    url: "/images/coconuts_wholesale.jpeg",
     title: "Fresh Mature Coconuts Wholesale"
   },
   {
-    url: "/images/cardamoms_spices.png",
+    url: "/images/cardamoms_spices.jpeg",
     title: "Premium Indian Spices & Cardamom"
   }
 ];

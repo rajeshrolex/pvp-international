@@ -216,7 +216,7 @@ const productsData = [
     prodname: "Groundnut Kernels Seeds",
     proddispid: 2856184691666,
     category: "Dry Fruits & Nuts",
-    image: "/images/groundnut_kernels.png",
+    image: "/images/groundnut_kernels.jpeg",
     description: "Premium-grade shelled peanut kernels. Sorted by size, rich in oil and nutrients, perfect for snack processing or direct sourcing.",
     specs: { grade: "Bold 70/80 Count", packaging: "50kg Jute bags", moisture: "7% Maximum", origin: "Anantapur, Andhra Pradesh" }
   },
@@ -251,7 +251,7 @@ const productsData = [
     prodname: "Organic Sweet Potato",
     proddispid: 2856184690666,
     category: "Vegetables",
-    image: "/images/sweet_potato.png",
+    image: "/images/sweet_potato.jpeg",
     description: "Starchy, sweet, and nutrient-dense organic sweet potatoes. Carefully washed and sorted for bulk wholesale.",
     specs: { grade: "Grade-A Organic", packaging: "20kg Wooden Crates / Jute Sacks", moisture: "Fresh Harvest", origin: "Coastal Andhra districts" }
   },
@@ -259,7 +259,7 @@ const productsData = [
     prodname: "Fresh Green Chillies",
     proddispid: 2856184690333,
     category: "Vegetables",
-    image: "/images/green_chillies.png",
+    image: "/images/green_chillies.jpeg",
     description: "Highly pungent, fresh green chillies. Sourced fresh daily from local farms, sorted by size and uniformity.",
     specs: { grade: "Guntur Teja / Standard Fresh", packaging: "5kg / 10kg Corrugated Boxes or Net Sacks", moisture: "Fresh Crop (High Hydration)", origin: "Guntur District, Andhra Pradesh" }
   },
@@ -569,7 +569,7 @@ const productsData = [
     prodname: "Fresh Alphonso Mango",
     proddispid: 2856184635997,
     category: "Fruits",
-    image: "/images/fresh_alphonso_mango.png",
+    image: "/images/fresh_alphonso_mango.jpeg",
     description: "Exquisite Alphonso mangoes, handpicked for sweetness, color, and premium texture.",
     specs: { grade: "Premium Table Grade (A-Grade)", packaging: "Cushioned Corrugated Boxes", moisture: "Fresh Fruit", origin: "Ratnagiri, India" }
   },
@@ -577,7 +577,7 @@ const productsData = [
     prodname: "Organic Fresh Watermelon",
     proddispid: 2856184558797,
     category: "Fruits",
-    image: "/images/organic_watermelon.png",
+    image: "/images/organic_watermelon.jpeg",
     description: "Sweet, juicy organic watermelons grown using sustainable biodiverse methods.",
     specs: { grade: "Premium Table Grade", packaging: "Bulk Crates", moisture: "Fresh Harvest", origin: "Nellore, Andhra Pradesh" }
   },
@@ -630,7 +630,7 @@ const productsData = [
     prodname: "White Short Grain Rice",
     proddispid: 2856184691555,
     category: "Rice & Grains",
-    image: "/images/short_grain_rice.png",
+    image: "/images/short_grain_rice.jpeg",
     description: "Premium white short grain rice. Soft and sticky texture, ideal for daily dining.",
     specs: { grade: "Sona Masoori / Raw Short Grain", packaging: "26kg / 50kg HDPE Bags", moisture: "12% Maximum", origin: "Krishna-Godavari delta, AP" }
   },
@@ -639,7 +639,7 @@ const productsData = [
     prodname: "Yellow Toor Dal",
     proddispid: 2856184627873,
     category: "Pulses",
-    image: "/images/yellow_toor_dal.png",
+    image: "/images/yellow_toor_dal.jpeg",
     description: "Premium bold yellow split pigeon peas (Toor Dal). Silky polished, uniform sortex quality.",
     specs: { grade: "Bold Sortex Cleaned", packaging: "25kg / 50kg PP Bags", moisture: "9.5% Maximum", origin: "Latur, Maharashtra" }
   },
@@ -647,7 +647,7 @@ const productsData = [
     prodname: "Whole Green Moong Dal",
     proddispid: 2856184691222,
     category: "Pulses",
-    image: "/images/green_moong_dal.png",
+    image: "/images/green_moong_dal.jpeg",
     description: "Whole premium green gram (Moong Dal). Uniform size, cleaned using sortex machines.",
     specs: { grade: "Sortex Cleaned Bold", packaging: "25kg / 50kg PP Sacks", moisture: "9% Maximum", origin: "AP cooperative farms" }
   },
@@ -656,7 +656,7 @@ const productsData = [
     prodname: "Dried Turmeric Finger",
     proddispid: 2856184680048,
     category: "Spices",
-    image: "/images/turmeric_export.png",
+    image: "/images/turmeric_export.jpeg",
     description: "Premium double-polished dried turmeric finger roots. Highly valued for deep golden color and curcumin value.",
     specs: { grade: "Export Quality Double Polished", packaging: "25kg / 50kg Jute Bags", moisture: "9% Maximum", origin: "Kadapa, AP" }
   },
@@ -664,7 +664,7 @@ const productsData = [
     prodname: "Dry Red Chilli",
     proddispid: 2856184690999,
     category: "Spices",
-    image: "/images/dry_red_chilli.png",
+    image: "/images/dry_red_chilli.jpeg",
     description: "Premium dried red chillies. Uniform fiery red color, high heat values, ideal for exports.",
     specs: { grade: "Guntur Teja (S17) / Stemless", packaging: "10kg / 25kg Gunny Bags", moisture: "10% Maximum", origin: "Guntur Chilli Yard, AP" }
   },
@@ -672,7 +672,7 @@ const productsData = [
     prodname: "Organic Dry Cloves",
     proddispid: 2856184691333,
     category: "Spices",
-    image: "/images/dry_cloves.png",
+    image: "/images/dry_cloves.jpeg",
     description: "Fully dried, highly aromatic cloves (Laung). High oil content, deep brown hue.",
     specs: { grade: "Hand-picked Selected (HPS) Grade", packaging: "25kg Jute bags with inner lining", moisture: "11% Maximum", origin: "Kerala, India" }
   },
@@ -691,7 +691,7 @@ const productsData = [
     prodname: "Premium Cardamom",
     proddispid: 2856184691444,
     category: "Spices",
-    image: "/images/cardamoms_spices.png",
+    image: "/images/cardamoms_spices.jpeg",
     description: "Export-grade green cardamom pods (Elaichi) with rich aroma, high oil content, and bold size (7mm - 8mm+).",
     specs: { grade: "Bold Green 7mm / 8mm+", packaging: "10kg / 25kg PP bags or Cartons", moisture: "10% Maximum", origin: "Directly sourced from top plantations in Kerala" }
   },
@@ -699,7 +699,7 @@ const productsData = [
     prodname: "Fresh Wholesale Coconuts",
     proddispid: 2856184636001,
     category: "Fruits",
-    image: "/images/coconuts_wholesale.png",
+    image: "/images/coconuts_wholesale.jpeg",
     description: "Fully mature semi-dehusked fresh coconuts with rich water and kernel density. Perfect for bulk export and retail.",
     specs: { grade: "Semi-dehusked Grade A (Weight 550g - 650g+)", packaging: "25 nuts per PP bag", moisture: "Fresh Harvest", origin: "East Godavari, Andhra Pradesh" }
   },
@@ -707,7 +707,7 @@ const productsData = [
     prodname: "Fresh Tender Coconut",
     proddispid: 2856184636002,
     category: "Fruits",
-    image: "/images/tender_coconut.png",
+    image: "/images/tender_coconut.jpeg",
     description: "Naturally sweet and highly hydrating green tender coconuts. Freshly harvested and sorted.",
     specs: { grade: "Grade A Sweet Water", packaging: "Bulk loaded or crates", moisture: "Fresh Harvest", origin: "Coastal Andhra Districts" }
   },
@@ -715,7 +715,7 @@ const productsData = [
     prodname: "Half-Cut Dry Coconut (Copra)",
     proddispid: 2856184636003,
     category: "Fruits",
-    image: "/images/half_cut_dry_coconut.png",
+    image: "/images/half_cut_dry_coconut.jpeg",
     description: "Sun-dried copra halves, rich in oil content. Cleanly processed for oil extraction and culinary use.",
     specs: { grade: "Milling / Edible Grade", packaging: "50kg Gunny Bags", moisture: "6% Maximum", origin: "Konaseema Region, AP" }
   },
@@ -739,7 +739,7 @@ const productsData = [
     prodname: "Premium Golden Broken Rice",
     proddispid: 2856184691566,
     category: "Rice & Grains",
-    image: "/images/golden_broken_rice.png",
+    image: "/images/golden_broken_rice.jpeg",
     description: "High-grade broken rice grains, double-polished and sortex-cleaned. Excellent texture, ideal for flour and food processing.",
     specs: { grade: "100% Broken Sortex Cleaned", packaging: "25kg / 50kg PP Bags", moisture: "13% Max", origin: "Coastal Andhra Rice Mills" }
   },
@@ -747,7 +747,7 @@ const productsData = [
     prodname: "Premium Refined Sugar",
     proddispid: 2856184691888,
     category: "Rice & Grains",
-    image: "/images/refined_sugar.png",
+    image: "/images/refined_sugar.jpeg",
     description: "Double refined white crystal sugar, highly pure and sweet, suitable for household and food industries.",
     specs: { grade: "ICUMSA 45 Export Quality", packaging: "50kg PP Bags", moisture: "0.04% Max", origin: "Uttar Pradesh / Maharashtra" }
   },
@@ -755,7 +755,7 @@ const productsData = [
     prodname: "Premium Mustard Seeds",
     proddispid: 2856184691455,
     category: "Spices",
-    image: "/images/mustard_seeds.png",
+    image: "/images/mustard_seeds.jpeg",
     description: "Bold black/yellow mustard seeds with rich oil content and strong, natural aroma.",
     specs: { grade: "Bold Grade A", packaging: "25kg / 50kg Bags", moisture: "8% Maximum", origin: "Rajasthan, India" }
   },
@@ -763,7 +763,7 @@ const productsData = [
     prodname: "Fresh Seer Fish",
     proddispid: 2856184699555,
     category: "Seafood",
-    image: "/images/fresh_seer_fish.png",
+    image: "/images/fresh_seer_fish.jpeg",
     description: "Premium fresh-caught Seer Fish (Vanjaram), hygienically cleaned, cold-chain preserved to guarantee freshness.",
     specs: { grade: "Export Grade Whole / Slices", packaging: "Thermocol boxes with dry ice", moisture: "Fresh Catch", origin: "Visakhapatnam Harbor / Bay of Bengal" }
   }
