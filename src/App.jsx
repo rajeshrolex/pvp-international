@@ -836,26 +836,6 @@ function App() {
     setSelectedProduct(product);
   };
 
-  const handleInquireClick = (product) => {
-    const element = document.getElementById('inquiry');
-    if (element) {
-      const offset = 80;
-      const bodyRect = document.body.getBoundingClientRect().top;
-      const elementRect = element.getBoundingClientRect().top;
-      const elementPosition = elementRect - bodyRect;
-      const offsetPosition = elementPosition - offset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-    const selectEl = document.querySelector('select[name="selectedProduct"]');
-    if (selectEl) {
-      selectEl.value = product.prodname;
-    }
-  };
-
   const handleFooterNav = (id) => {
     setActiveSection(id);
     const element = document.getElementById(id);
@@ -954,7 +934,6 @@ function App() {
                      key={product.proddispid}
                      product={product}
                      onQuickViewClick={handleQuickView}
-                     onInquireClick={handleInquireClick}
                   />
                 ))}
               </div>
@@ -1022,8 +1001,8 @@ function App() {
               <div className="lg:col-span-6 relative">
                 <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border border-gray-100">
                   <img
-                    src="https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&q=80&w=800"
-                    alt="Agricultural Sourcing Fields"
+                    src="/images/office_photo.jpeg"
+                    alt="PVP International Office, Visakhapatnam"
                     className="w-full h-full object-cover"
                   />
                 </div>

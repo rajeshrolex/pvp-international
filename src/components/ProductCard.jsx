@@ -3,7 +3,7 @@ import { FiEye, FiArrowRight, FiInfo } from 'react-icons/fi';
 import { GiThreeLeaves, GiWaterDrop, GiGrain, GiCoconuts } from 'react-icons/gi';
 import { FaWhatsapp } from 'react-icons/fa';
 
-export default function ProductCard({ product, onQuickViewClick, onInquireClick }) {
+export default function ProductCard({ product, onQuickViewClick }) {
   const [imageError, setImageError] = useState(false);
 
   // Map category to styles
