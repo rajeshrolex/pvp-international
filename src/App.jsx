@@ -1001,7 +1001,7 @@ function App() {
               <div className="lg:col-span-6 relative">
                 <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border border-gray-100">
                   <img
-                    src="/images/office_photo.jpeg"
+                    src="/images/office_photo.png"
                     alt="PVP International Office, Visakhapatnam"
                     className="w-full h-full object-cover"
                   />
